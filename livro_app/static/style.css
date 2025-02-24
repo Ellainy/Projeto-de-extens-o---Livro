@@ -1,0 +1,46 @@
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #004d00 !important;
+}
+
+.banner {
+    background: url('banner.jpg') center/cover no-repeat;
+    padding: 100px 0;
+    color: white;
+}
+
+.services h2 {
+    margin: 40px 0;
+    color: #004d00;
+}
+
+.service-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+}
+
+.service-box i {
+    font-size: 50px;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #004d00;
+    padding: 20px;
+}
